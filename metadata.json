@@ -1,0 +1,8 @@
+{
+  "name": "SEO Audit Pro AI",
+  "description": "A professional AI-powered tool for comprehensive website crawling, technical SEO analysis, and actionable performance optimization reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

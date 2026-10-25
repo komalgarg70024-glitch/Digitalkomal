@@ -1,0 +1,1063 @@
+[
+  {
+    "id": "demo-audit-acme-cloud",
+    "url": "https://acme-cloud-analytics.example.com",
+    "normalizedOrigin": "https://acme-cloud-analytics.example.com",
+    "createdAt": "2026-10-09T18:00:00.000Z",
+    "completedAt": "2026-10-09T18:00:00.000Z",
+    "durationMs": 3420,
+    "isDemoData": true,
+    "config": {
+      "url": "https://acme-cloud-analytics.example.com",
+      "mode": "full",
+      "maxPages": 10,
+      "maxDepth": 2,
+      "respectRobotsTxt": true,
+      "includeSubdomains": false,
+      "crawlDelayMs": 100,
+      "targetKeyword": "cloud analytics platform",
+      "secondaryKeywords": [
+        "enterprise data observability",
+        "real-time sql metrics"
+      ],
+      "targetCountry": "United States",
+      "targetLanguage": "en",
+      "businessName": "Acme Cloud Analytics Inc.",
+      "businessAddress": "548 Market St, San Francisco, CA 94104",
+      "businessPhone": "(415) 555-0192",
+      "runPageSpeed": true,
+      "runAiAnalysis": true,
+      "weights": {
+        "technical": 25,
+        "onPage": 20,
+        "content": 20,
+        "performance": 15,
+        "links": 10,
+        "schema": 10
+      }
+    },
+    "overallScore": 76,
+    "categoryScores": {
+      "technical": {
+        "category": "Technical SEO",
+        "score": 82,
+        "weightPercent": 25,
+        "passedCount": 11,
+        "warningCount": 3,
+        "errorCount": 1,
+        "criticalCount": 0,
+        "applicableChecks": 15,
+        "unavailableChecks": 0
+      },
+      "onPage": {
+        "category": "On-Page SEO",
+        "score": 74,
+        "weightPercent": 20,
+        "passedCount": 7,
+        "warningCount": 4,
+        "errorCount": 2,
+        "criticalCount": 0,
+        "applicableChecks": 13,
+        "unavailableChecks": 0
+      },
+      "content": {
+        "category": "Content Quality",
+        "score": 79,
+        "weightPercent": 20,
+        "passedCount": 6,
+        "warningCount": 2,
+        "errorCount": 1,
+        "criticalCount": 0,
+        "applicableChecks": 9,
+        "unavailableChecks": 0
+      },
+      "performance": {
+        "category": "Performance",
+        "score": 68,
+        "weightPercent": 15,
+        "passedCount": 3,
+        "warningCount": 3,
+        "errorCount": 1,
+        "criticalCount": 0,
+        "applicableChecks": 7,
+        "unavailableChecks": 0
+      },
+      "links": {
+        "category": "Links & Media",
+        "score": 72,
+        "weightPercent": 10,
+        "passedCount": 5,
+        "warningCount": 3,
+        "errorCount": 1,
+        "criticalCount": 1,
+        "applicableChecks": 10,
+        "unavailableChecks": 0
+      },
+      "schema": {
+        "category": "Structured Data",
+        "score": 70,
+        "weightPercent": 10,
+        "passedCount": 2,
+        "warningCount": 2,
+        "errorCount": 1,
+        "criticalCount": 0,
+        "applicableChecks": 5,
+        "unavailableChecks": 0
+      }
+    },
+    "counts": {
+      "totalChecks": 59,
+      "passed": 34,
+      "warnings": 17,
+      "errors": 7,
+      "critical": 1,
+      "urlsCrawled": 4,
+      "urlsDiscovered": 5,
+      "crawlCoveragePercent": 80
+    },
+    "pages": [
+      {
+        "url": "https://acme-cloud-analytics.example.com/",
+        "finalUrl": "https://acme-cloud-analytics.example.com/",
+        "statusCode": 200,
+        "redirectChain": [],
+        "responseTimeMs": 310,
+        "contentType": "text/html; charset=utf-8",
+        "contentSizeBytes": 68400,
+        "crawlDepth": 0,
+        "timestamp": "2026-10-09T18:00:00.000Z",
+        "headers": {
+          "xRobotsTag": "index, follow",
+          "strictTransportSecurity": "max-age=31536000; includeSubDomains",
+          "contentSecurityPolicy": "default-src 'self' https:",
+          "xFrameOptions": "SAMEORIGIN",
+          "xContentTypeOptions": "nosniff",
+          "cacheControl": "public, max-age=3600",
+          "contentEncoding": "br",
+          "server": "cloudflare"
+        },
+        "title": "Acme Cloud Analytics Platform | Enterprise Data Observability & BI",
+        "titleLength": 66,
+        "metaDescription": "Unified cloud analytics platform for engineering and data teams. Monitor pipelines, optimize SQL latency, and automate anomaly detection in real time.",
+        "metaDescriptionLength": 150,
+        "metaRobots": "index, follow",
+        "canonicalUrl": "https://acme-cloud-analytics.example.com/",
+        "htmlLang": "en",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "charset": "UTF-8",
+        "openGraph": {
+          "og:title": "Acme Cloud Analytics Platform",
+          "og:description": "Unified cloud analytics platform for engineering and data teams.",
+          "og:image": "https://acme-cloud-analytics.example.com/assets/og-card.webp",
+          "og:type": "website"
+        },
+        "twitterCard": {
+          "twitter:card": "summary_large_image",
+          "twitter:title": "Acme Cloud Analytics Platform"
+        },
+        "hreflangTags": [
+          {
+            "lang": "en-us",
+            "href": "https://acme-cloud-analytics.example.com/"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://acme-cloud-analytics.example.com/"
+          }
+        ],
+        "h1s": [
+          "Enterprise Cloud Analytics Platform for Real-Time Data Teams"
+        ],
+        "h2s": [
+          "Why Modern Engineering Teams Choose Acme Cloud",
+          "Sub-Second Query Telemetry & Pipeline Governance",
+          "Seamless Warehouse Integrations",
+          "Frequently Asked Questions"
+        ],
+        "h3s": [
+          "Snowflake & BigQuery Native Connectors",
+          "Automated Schema Drift Alerts",
+          "SOC2 Type II Security"
+        ],
+        "h4s": [],
+        "headingHierarchySkips": [],
+        "wordCount": 845,
+        "paragraphsCount": 18,
+        "sentencesCount": 46,
+        "readabilityScore": 62,
+        "readabilityGrade": "Standard Conversational (8th-9th Grade)",
+        "textSnippet": "Enterprise Cloud Analytics Platform for Real-Time Data Teams. Acme Cloud Analytics Inc. helps engineering organizations monitor query latency, eliminate pipeline bottlenecks, and govern cloud warehouse spend. Located at 548 Market St, San Francisco, CA 94104. Call (415) 555-0192 for enterprise onboarding.",
+        "topTerms": [
+          {
+            "term": "analytics",
+            "count": 19,
+            "density": 2.25
+          },
+          {
+            "term": "cloud",
+            "count": 16,
+            "density": 1.89
+          },
+          {
+            "term": "platform",
+            "count": 14,
+            "density": 1.66
+          },
+          {
+            "term": "data",
+            "count": 13,
+            "density": 1.54
+          },
+          {
+            "term": "pipeline",
+            "count": 9,
+            "density": 1.07
+          },
+          {
+            "term": "observability",
+            "count": 8,
+            "density": 0.95
+          }
+        ],
+        "outdatedYearMentions": [],
+        "faqCount": 4,
+        "hasJsFrameworkWarning": false,
+        "keywordAnalysis": {
+          "targetKeyword": "cloud analytics platform",
+          "inTitle": true,
+          "inMetaDescription": true,
+          "inH1": true,
+          "inH2": false,
+          "inUrl": true,
+          "inFirst100Words": true,
+          "occurrences": 6,
+          "densityPercent": 2.13,
+          "isStuffed": false
+        },
+        "suggestedTitle": "Cloud Analytics Platform — Enterprise Observability | Acme",
+        "images": [
+          {
+            "src": "/assets/dashboard-hero.png",
+            "resolvedUrl": "https://acme-cloud-analytics.example.com/assets/dashboard-hero.png",
+            "alt": "Acme Cloud Analytics real-time query latency dashboard",
+            "hasAlt": true,
+            "isEmptyAlt": false,
+            "width": "1280",
+            "height": "720",
+            "loading": "eager",
+            "filename": "dashboard-hero.png",
+            "hasDescriptiveFilename": true,
+            "format": "png",
+            "statusCode": 200,
+            "isBroken": false,
+            "fileSizeBytes": 342000
+          },
+          {
+            "src": "/assets/IMG_4092.jpg",
+            "resolvedUrl": "https://acme-cloud-analytics.example.com/assets/IMG_4092.jpg",
+            "alt": null,
+            "hasAlt": false,
+            "isEmptyAlt": false,
+            "width": null,
+            "height": null,
+            "loading": null,
+            "filename": "IMG_4092.jpg",
+            "hasDescriptiveFilename": false,
+            "format": "jpg",
+            "statusCode": 200,
+            "isBroken": false,
+            "fileSizeBytes": 498000,
+            "suggestedAltText": "Enterprise Cloud Analytics Platform architecture diagram"
+          }
+        ],
+        "internalLinks": [
+          {
+            "href": "/pricing",
+            "resolvedUrl": "https://acme-cloud-analytics.example.com/pricing",
+            "anchorText": "Pricing & Enterprise Plans",
+            "isGenericAnchor": false,
+            "isInternal": true,
+            "isNavigation": true,
+            "rel": null,
+            "statusCode": 200
+          },
+          {
+            "href": "/docs/QuickStart_Guide",
+            "resolvedUrl": "https://acme-cloud-analytics.example.com/docs/QuickStart_Guide",
+            "anchorText": "click here",
+            "isGenericAnchor": true,
+            "isInternal": true,
+            "isNavigation": false,
+            "rel": null,
+            "statusCode": 200,
+            "redirectsTo": "https://acme-cloud-analytics.example.com/docs/quickstart-guide"
+          },
+          {
+            "href": "/legacy-integrations",
+            "resolvedUrl": "https://acme-cloud-analytics.example.com/legacy-integrations",
+            "anchorText": "Legacy v1 Connectors",
+            "isGenericAnchor": false,
+            "isInternal": true,
+            "isNavigation": false,
+            "rel": null,
+            "statusCode": 404,
+            "isBroken": true
+          }
+        ],
+        "externalLinks": [
+          {
+            "href": "https://schema.org",
+            "resolvedUrl": "https://schema.org/",
+            "anchorText": "Schema.org Documentation",
+            "isGenericAnchor": false,
+            "isInternal": false,
+            "isNavigation": false,
+            "rel": "noopener noreferrer",
+            "statusCode": 200,
+            "isBroken": false
+          }
+        ],
+        "mixedContentUrls": [],
+        "renderBlockingResources": [
+          {
+            "type": "stylesheet",
+            "url": "/static/css/main.css"
+          },
+          {
+            "type": "script",
+            "url": "/static/js/vendor-analytics-sync.js"
+          }
+        ],
+        "schemaEntities": [
+          {
+            "format": "JSON-LD",
+            "type": "Organization",
+            "raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Acme Cloud Analytics Inc.\",\n  \"url\": \"https://acme-cloud-analytics.example.com\"\n}",
+            "isValid": true,
+            "missingRecommendedProps": [
+              "logo"
+            ],
+            "warnings": [],
+            "suggestedFixJson": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Acme Cloud Analytics Inc.\",\n  \"url\": \"https://acme-cloud-analytics.example.com\",\n  \"logo\": \"https://acme-cloud-analytics.example.com/logo.png\"\n}"
+          }
+        ],
+        "localSignals": {
+          "phonesDetected": [
+            "(415) 555-0192"
+          ],
+          "addressesDetected": [
+            "548 Market St, San Francisco, CA 94104"
+          ],
+          "hasMapEmbedOrLink": true,
+          "hasContactLink": true,
+          "hasReviewMentions": true,
+          "hasLocalBusinessSchema": false,
+          "napConsistencyStatus": "matched"
+        },
+        "incomingInternalLinksCount": 3
+      },
+      {
+        "url": "https://acme-cloud-analytics.example.com/pricing",
+        "finalUrl": "https://acme-cloud-analytics.example.com/pricing",
+        "statusCode": 200,
+        "redirectChain": [],
+        "responseTimeMs": 280,
+        "contentType": "text/html; charset=utf-8",
+        "contentSizeBytes": 42100,
+        "crawlDepth": 1,
+        "timestamp": "2026-10-09T18:00:00.000Z",
+        "headers": {
+          "xRobotsTag": null,
+          "strictTransportSecurity": "max-age=31536000; includeSubDomains",
+          "contentSecurityPolicy": null,
+          "xFrameOptions": "SAMEORIGIN",
+          "xContentTypeOptions": "nosniff",
+          "cacheControl": "public, max-age=1800",
+          "contentEncoding": "br",
+          "server": "cloudflare"
+        },
+        "title": "Pricing Plans | Acme Cloud",
+        "titleLength": 26,
+        "metaDescription": "",
+        "metaDescriptionLength": 0,
+        "metaRobots": "index, follow",
+        "canonicalUrl": "",
+        "htmlLang": "en",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "charset": "UTF-8",
+        "openGraph": {},
+        "twitterCard": {},
+        "hreflangTags": [],
+        "h1s": [
+          "Transparent Usage-Based Pricing",
+          "Compare Enterprise Tiers"
+        ],
+        "h2s": [
+          "Starter Tier",
+          "Growth Tier",
+          "Enterprise Dedicated Cluster"
+        ],
+        "h3s": [],
+        "h4s": [],
+        "headingHierarchySkips": [
+          "H1 jumped directly to H3 in footer callout"
+        ],
+        "wordCount": 410,
+        "paragraphsCount": 9,
+        "sentencesCount": 24,
+        "readabilityScore": 68,
+        "readabilityGrade": "Standard Conversational (8th-9th Grade)",
+        "textSnippet": "Transparent Usage-Based Pricing. Compare Enterprise Tiers for Acme Cloud Analytics Platform. Predictable monthly billing with zero egress surprises.",
+        "topTerms": [
+          {
+            "term": "pricing",
+            "count": 11,
+            "density": 2.68
+          },
+          {
+            "term": "enterprise",
+            "count": 9,
+            "density": 2.2
+          },
+          {
+            "term": "tier",
+            "count": 8,
+            "density": 1.95
+          },
+          {
+            "term": "cloud",
+            "count": 6,
+            "density": 1.46
+          }
+        ],
+        "outdatedYearMentions": [
+          "2023"
+        ],
+        "faqCount": 2,
+        "hasJsFrameworkWarning": false,
+        "suggestedTitle": "Cloud Analytics Pricing & Enterprise Plans | Acme Cloud",
+        "suggestedMetaDescription": "Compare Acme Cloud Analytics pricing tiers from Starter to Enterprise Dedicated Clusters. Transparent usage-based billing with a 14-day free trial.",
+        "suggestedH1": "Transparent Cloud Analytics Pricing & Enterprise Plans",
+        "images": [],
+        "internalLinks": [
+          {
+            "href": "/",
+            "resolvedUrl": "https://acme-cloud-analytics.example.com/",
+            "anchorText": "Home",
+            "isGenericAnchor": false,
+            "isInternal": true,
+            "isNavigation": true,
+            "rel": null,
+            "statusCode": 200
+          }
+        ],
+        "externalLinks": [],
+        "mixedContentUrls": [],
+        "renderBlockingResources": [],
+        "schemaEntities": [],
+        "localSignals": {
+          "phonesDetected": [
+            "(415) 555-0192"
+          ],
+          "addressesDetected": [],
+          "hasMapEmbedOrLink": false,
+          "hasContactLink": true,
+          "hasReviewMentions": false,
+          "hasLocalBusinessSchema": false,
+          "napConsistencyStatus": "partial"
+        },
+        "incomingInternalLinksCount": 2
+      },
+      {
+        "url": "https://acme-cloud-analytics.example.com/docs/QuickStart_Guide",
+        "finalUrl": "https://acme-cloud-analytics.example.com/docs/quickstart-guide",
+        "statusCode": 200,
+        "redirectChain": [
+          {
+            "from": "https://acme-cloud-analytics.example.com/docs/QuickStart_Guide",
+            "to": "https://acme-cloud-analytics.example.com/docs/quickstart-temp",
+            "statusCode": 302
+          },
+          {
+            "from": "https://acme-cloud-analytics.example.com/docs/quickstart-temp",
+            "to": "https://acme-cloud-analytics.example.com/docs/quickstart-guide",
+            "statusCode": 301
+          }
+        ],
+        "responseTimeMs": 540,
+        "contentType": "text/html; charset=utf-8",
+        "contentSizeBytes": 31200,
+        "crawlDepth": 1,
+        "timestamp": "2026-10-09T18:00:00.000Z",
+        "headers": {
+          "xRobotsTag": null,
+          "strictTransportSecurity": "max-age=31536000; includeSubDomains",
+          "contentSecurityPolicy": null,
+          "xFrameOptions": null,
+          "xContentTypeOptions": "nosniff",
+          "cacheControl": "no-cache",
+          "contentEncoding": "gzip",
+          "server": "cloudflare"
+        },
+        "title": "Quickstart Integration Guide — Acme Cloud Analytics",
+        "titleLength": 51,
+        "metaDescription": "Connect your Snowflake, BigQuery, or PostgreSQL data warehouse to Acme Cloud Analytics in under 5 minutes using our CLI or Terraform provider.",
+        "metaDescriptionLength": 142,
+        "metaRobots": "index, follow",
+        "canonicalUrl": "https://acme-cloud-analytics.example.com/docs/quickstart-guide",
+        "htmlLang": "en",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "charset": "UTF-8",
+        "openGraph": {
+          "og:title": "Quickstart Integration Guide — Acme Cloud Analytics",
+          "og:description": "Connect your data warehouse in under 5 minutes.",
+          "og:image": "https://acme-cloud-analytics.example.com/assets/docs-og.webp"
+        },
+        "twitterCard": {},
+        "hreflangTags": [],
+        "h1s": [
+          "Quickstart Integration Guide"
+        ],
+        "h2s": [
+          "1. Install the CLI",
+          "2. Authenticate Your Workspace",
+          "3. Verify Telemetry Stream"
+        ],
+        "h3s": [],
+        "h4s": [],
+        "headingHierarchySkips": [],
+        "wordCount": 195,
+        "paragraphsCount": 5,
+        "sentencesCount": 12,
+        "readabilityScore": 58,
+        "readabilityGrade": "Moderately Complex (High School / B2B)",
+        "textSnippet": "Quickstart Integration Guide. Connect your Snowflake, BigQuery, or PostgreSQL data warehouse to Acme Cloud Analytics in under 5 minutes.",
+        "topTerms": [
+          {
+            "term": "quickstart",
+            "count": 6,
+            "density": 3.08
+          },
+          {
+            "term": "warehouse",
+            "count": 5,
+            "density": 2.56
+          },
+          {
+            "term": "analytics",
+            "count": 5,
+            "density": 2.56
+          }
+        ],
+        "outdatedYearMentions": [],
+        "faqCount": 0,
+        "hasJsFrameworkWarning": false,
+        "images": [],
+        "internalLinks": [],
+        "externalLinks": [],
+        "mixedContentUrls": [],
+        "renderBlockingResources": [],
+        "schemaEntities": [
+          {
+            "format": "JSON-LD",
+            "type": "Invalid JSON-LD",
+            "raw": "{ \"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"Quickstart Guide\", }",
+            "isValid": false,
+            "syntaxError": "Unexpected trailing comma in JSON-LD object at position 92",
+            "missingRecommendedProps": [
+              "author",
+              "datePublished"
+            ],
+            "warnings": [
+              "Invalid JSON syntax prevents search engines from parsing this block."
+            ],
+            "suggestedFixJson": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"TechArticle\",\n  \"headline\": \"Quickstart Integration Guide\",\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Acme Cloud Analytics Inc.\"\n  },\n  \"datePublished\": \"2026-10-01\"\n}"
+          }
+        ],
+        "localSignals": {
+          "phonesDetected": [],
+          "addressesDetected": [],
+          "hasMapEmbedOrLink": false,
+          "hasContactLink": false,
+          "hasReviewMentions": false,
+          "hasLocalBusinessSchema": false,
+          "napConsistencyStatus": "not_provided"
+        },
+        "incomingInternalLinksCount": 1
+      },
+      {
+        "url": "https://acme-cloud-analytics.example.com/legacy-integrations",
+        "finalUrl": "https://acme-cloud-analytics.example.com/legacy-integrations",
+        "statusCode": 404,
+        "redirectChain": [],
+        "responseTimeMs": 190,
+        "contentType": "text/html; charset=utf-8",
+        "contentSizeBytes": 4200,
+        "crawlDepth": 1,
+        "timestamp": "2026-10-09T18:00:00.000Z",
+        "errorMessage": "HTTP 404 Not Found",
+        "headers": {
+          "xRobotsTag": "noindex",
+          "strictTransportSecurity": "max-age=31536000",
+          "contentSecurityPolicy": null,
+          "xFrameOptions": null,
+          "xContentTypeOptions": "nosniff",
+          "cacheControl": null,
+          "contentEncoding": "gzip",
+          "server": "cloudflare"
+        },
+        "title": "404 Page Not Found",
+        "titleLength": 18,
+        "metaDescription": "",
+        "metaDescriptionLength": 0,
+        "metaRobots": "noindex",
+        "canonicalUrl": "",
+        "htmlLang": "en",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "charset": "UTF-8",
+        "openGraph": {},
+        "twitterCard": {},
+        "hreflangTags": [],
+        "h1s": [
+          "404 — Page Not Found"
+        ],
+        "h2s": [],
+        "h3s": [],
+        "h4s": [],
+        "headingHierarchySkips": [],
+        "wordCount": 28,
+        "paragraphsCount": 1,
+        "sentencesCount": 2,
+        "readabilityScore": 75,
+        "readabilityGrade": "Standard",
+        "textSnippet": "404 Page Not Found. The requested integration page has been removed.",
+        "topTerms": [],
+        "outdatedYearMentions": [],
+        "faqCount": 0,
+        "hasJsFrameworkWarning": false,
+        "images": [],
+        "internalLinks": [],
+        "externalLinks": [],
+        "mixedContentUrls": [],
+        "renderBlockingResources": [],
+        "schemaEntities": [],
+        "localSignals": {
+          "phonesDetected": [],
+          "addressesDetected": [],
+          "hasMapEmbedOrLink": false,
+          "hasContactLink": false,
+          "hasReviewMentions": false,
+          "hasLocalBusinessSchema": false
+        },
+        "incomingInternalLinksCount": 1
+      }
+    ],
+    "robotsTxt": {
+      "url": "https://acme-cloud-analytics.example.com/robots.txt",
+      "exists": true,
+      "statusCode": 200,
+      "rawContent": "User-agent: *\nDisallow: /admin/\nDisallow: /internal-api/\nSitemap: https://acme-cloud-analytics.example.com/sitemap.xml",
+      "disallowRules": [
+        "/admin/",
+        "/internal-api/"
+      ],
+      "allowRules": [],
+      "sitemapUrls": [
+        "https://acme-cloud-analytics.example.com/sitemap.xml"
+      ],
+      "blocksRoot": false
+    },
+    "sitemap": {
+      "url": "https://acme-cloud-analytics.example.com/sitemap.xml",
+      "exists": true,
+      "statusCode": 200,
+      "isValidXml": true,
+      "urlCount": 5,
+      "sampleUrls": [
+        {
+          "url": "https://acme-cloud-analytics.example.com/",
+          "statusCode": 200,
+          "inCrawl": true,
+          "canonicalMatches": true
+        },
+        {
+          "url": "https://acme-cloud-analytics.example.com/pricing",
+          "statusCode": 200,
+          "inCrawl": true,
+          "canonicalMatches": false
+        },
+        {
+          "url": "https://acme-cloud-analytics.example.com/docs/quickstart-guide",
+          "statusCode": 200,
+          "inCrawl": true,
+          "canonicalMatches": true
+        },
+        {
+          "url": "https://acme-cloud-analytics.example.com/security-whitepaper",
+          "statusCode": 200,
+          "inCrawl": false,
+          "canonicalMatches": true
+        }
+      ],
+      "errors": []
+    },
+    "issues": [
+      {
+        "id": "demo-iss-1",
+        "checkId": "links-broken-internal",
+        "title": "1 broken internal link on homepage (/legacy-integrations returns HTTP 404)",
+        "category": "Links & Media",
+        "subcategory": "Internal Linking",
+        "severity": "critical",
+        "affectedUrl": "https://acme-cloud-analytics.example.com/",
+        "evidence": "Link href=\"/legacy-integrations\" resolved to HTTP 404 Not Found",
+        "explanation": "Broken internal links trap users and search engine crawlers on dead-end 404 pages and waste internal link equity.",
+        "recommendedFix": "Update the href attribute on the homepage to point to the live /docs/quickstart-guide URL or implement a 301 redirect.",
+        "status": "open"
+      },
+      {
+        "id": "demo-iss-2",
+        "checkId": "onpage-desc-missing",
+        "title": "Missing meta description on high-intent /pricing page",
+        "category": "On-Page SEO",
+        "subcategory": "Meta Description",
+        "severity": "error",
+        "affectedUrl": "https://acme-cloud-analytics.example.com/pricing",
+        "evidence": "No <meta name=\"description\"> tag found in <head>",
+        "explanation": "Commercial pricing pages rely on strong SERP snippets to maximize organic click-through rate.",
+        "recommendedFix": "Add a unique 120–158 character meta description summarizing pricing tiers and free trial availability.",
+        "suggestedValue": "Compare Acme Cloud Analytics pricing tiers from Starter to Enterprise Dedicated Clusters. Transparent usage-based billing with a 14-day free trial.",
+        "status": "open"
+      },
+      {
+        "id": "demo-iss-3",
+        "checkId": "schema-syntax-error",
+        "title": "Malformed JSON-LD structured data syntax error (trailing comma)",
+        "category": "Structured Data",
+        "subcategory": "Schema Validation",
+        "severity": "error",
+        "affectedUrl": "https://acme-cloud-analytics.example.com/docs/quickstart-guide",
+        "evidence": "Unexpected trailing comma in application/ld+json TechArticle block",
+        "explanation": "JSON-LD requires strict RFC 8259 JSON syntax. A single trailing comma invalidates the entire structured data block.",
+        "recommendedFix": "Remove the trailing comma and add recommended author and datePublished fields.",
+        "suggestedValue": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"TechArticle\",\n  \"headline\": \"Quickstart Integration Guide\",\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Acme Cloud Analytics Inc.\"\n  },\n  \"datePublished\": \"2026-10-01\"\n}",
+        "status": "open"
+      },
+      {
+        "id": "demo-iss-4",
+        "checkId": "media-missing-alt",
+        "title": "Image missing alt attribute and explicit width/height dimensions (IMG_4092.jpg)",
+        "category": "Links & Media",
+        "subcategory": "Image SEO",
+        "severity": "error",
+        "affectedUrl": "https://acme-cloud-analytics.example.com/",
+        "evidence": "/assets/IMG_4092.jpg (498 KB) has no alt, width, or height attributes and uses a non-descriptive camera filename",
+        "explanation": "Missing alt text hurts screen reader accessibility and image search visibility, while missing dimensions cause Cumulative Layout Shift (CLS).",
+        "recommendedFix": "Rename file to cloud-analytics-architecture.webp, add descriptive alt text, and declare width=\"800\" height=\"500\".",
+        "suggestedValue": "Enterprise Cloud Analytics Platform architecture diagram",
+        "status": "open"
+      },
+      {
+        "id": "demo-iss-5",
+        "checkId": "tech-redirect-chain",
+        "title": "Redirect chain (2 hops including temporary 302) on /docs/QuickStart_Guide",
+        "category": "Technical SEO",
+        "subcategory": "HTTP Status & Crawling",
+        "severity": "warning",
+        "affectedUrl": "https://acme-cloud-analytics.example.com/docs/QuickStart_Guide",
+        "evidence": "/docs/QuickStart_Guide [302] -> /docs/quickstart-temp [301] -> /docs/quickstart-guide",
+        "explanation": "Multi-hop redirect chains add round-trip latency (540ms) and dilute crawl efficiency.",
+        "recommendedFix": "Update all internal links to point directly to /docs/quickstart-guide and collapse the server redirect into a single 301 hop.",
+        "status": "open"
+      },
+      {
+        "id": "demo-iss-6",
+        "checkId": "tech-canonical-missing",
+        "title": "Missing self-referencing canonical tag on /pricing",
+        "category": "Technical SEO",
+        "subcategory": "Indexability",
+        "severity": "warning",
+        "affectedUrl": "https://acme-cloud-analytics.example.com/pricing",
+        "evidence": "No <link rel=\"canonical\"> tag present in <head>",
+        "explanation": "Pricing pages often receive UTM and ad campaign query parameters that can create duplicate URL variants without a canonical tag.",
+        "recommendedFix": "Add <link rel=\"canonical\" href=\"https://acme-cloud-analytics.example.com/pricing\" /> to <head>.",
+        "suggestedValue": "<link rel=\"canonical\" href=\"https://acme-cloud-analytics.example.com/pricing\" />",
+        "status": "open"
+      },
+      {
+        "id": "demo-iss-7",
+        "checkId": "onpage-title-long",
+        "title": "Homepage title tag exceeds 60 characters (66 chars) — SERP truncation risk",
+        "category": "On-Page SEO",
+        "subcategory": "Title Tag",
+        "severity": "warning",
+        "affectedUrl": "https://acme-cloud-analytics.example.com/",
+        "evidence": "\"Acme Cloud Analytics Platform | Enterprise Data Observability & BI\" (66 chars)",
+        "explanation": "Titles exceeding ~60 characters are frequently truncated with ellipses in desktop and mobile search results.",
+        "recommendedFix": "Shorten the title tag to 54–58 characters while preserving the primary keyword.",
+        "suggestedValue": "Cloud Analytics Platform — Enterprise Observability | Acme",
+        "status": "open"
+      },
+      {
+        "id": "demo-iss-8",
+        "checkId": "onpage-h1-multiple",
+        "title": "Multiple H1 headings (2 H1 tags) and title too short on /pricing",
+        "category": "On-Page SEO",
+        "subcategory": "Headings",
+        "severity": "warning",
+        "affectedUrl": "https://acme-cloud-analytics.example.com/pricing",
+        "evidence": "H1s: \"Transparent Usage-Based Pricing\", \"Compare Enterprise Tiers\"",
+        "explanation": "Using a single primary H1 with supporting H2 subheadings provides a cleaner semantic hierarchy.",
+        "recommendedFix": "Convert the secondary H1 (\"Compare Enterprise Tiers\") into an H2 heading.",
+        "suggestedValue": "Transparent Cloud Analytics Pricing & Enterprise Plans",
+        "status": "open"
+      },
+      {
+        "id": "demo-iss-9",
+        "checkId": "content-thin",
+        "title": "Thin body content (195 words) on /docs/quickstart-guide",
+        "category": "Content Quality",
+        "subcategory": "Content Depth",
+        "severity": "warning",
+        "affectedUrl": "https://acme-cloud-analytics.example.com/docs/quickstart-guide",
+        "evidence": "195 visible words across 5 paragraphs",
+        "explanation": "Technical documentation pages ranking for integration queries benefit from complete code examples, troubleshooting steps, and prerequisite checklists.",
+        "recommendedFix": "Expand the guide to 450+ words including CLI code blocks, configuration parameters, and common error resolutions.",
+        "status": "open"
+      },
+      {
+        "id": "demo-iss-10",
+        "checkId": "tech-robots-valid",
+        "title": "Accessible robots.txt file with valid crawl rules",
+        "category": "Technical SEO",
+        "subcategory": "Indexability",
+        "severity": "passed",
+        "affectedUrl": "https://acme-cloud-analytics.example.com/robots.txt",
+        "evidence": "HTTP 200, 2 Disallow rules, 1 Sitemap declaration",
+        "explanation": "robots.txt is properly configured and references the XML sitemap.",
+        "recommendedFix": "Maintain current configuration.",
+        "status": "resolved"
+      }
+    ],
+    "contentSimilarityPairs": [],
+    "contextualLinkOpportunities": [
+      {
+        "sourceUrl": "https://acme-cloud-analytics.example.com/docs/quickstart-guide",
+        "targetUrl": "https://acme-cloud-analytics.example.com/pricing",
+        "suggestedAnchorText": "Enterprise Cloud Analytics Pricing Tiers",
+        "reason": "Both pages address enterprise warehouse deployment, but the Quickstart Guide does not link to Pricing plans."
+      }
+    ],
+    "orphanCandidateUrls": [
+      "https://acme-cloud-analytics.example.com/security-whitepaper"
+    ],
+    "pageSpeed": {
+      "mobile": {
+        "strategy": "mobile",
+        "available": true,
+        "fetchedAt": "2026-10-09T18:00:00.000Z",
+        "dataSource": "Google PageSpeed Insights API v5",
+        "lighthouseScores": {
+          "performance": 68,
+          "accessibility": 89,
+          "bestPractices": 96,
+          "seo": 92
+        },
+        "labMetrics": {
+          "firstContentfulPaint": "1.9 s",
+          "largestContentfulPaint": "3.4 s",
+          "totalBlockingTime": "290 ms",
+          "cumulativeLayoutShift": "0.14",
+          "speedIndex": "3.1 s",
+          "interactive": "4.2 s"
+        },
+        "fieldData": {
+          "available": true,
+          "overallCategory": "AVERAGE",
+          "lcpMs": 2850,
+          "lcpCategory": "AVERAGE",
+          "inpMs": 165,
+          "inpCategory": "FAST",
+          "clsScore": 0.12,
+          "clsCategory": "AVERAGE",
+          "fcpMs": 1620,
+          "fcpCategory": "FAST"
+        },
+        "opportunities": [
+          {
+            "id": "modern-image-formats",
+            "title": "Serve images in next-gen formats (WebP / AVIF)",
+            "description": "Image formats like WebP and AVIF often provide better compression than PNG or JPEG.",
+            "displayValue": "Potential savings of 510 KiB",
+            "score": 45,
+            "savingsMs": 640,
+            "savingsBytes": 522240
+          },
+          {
+            "id": "render-blocking-resources",
+            "title": "Eliminate render-blocking resources",
+            "description": "Resources are blocking the first paint of your page.",
+            "displayValue": "Potential savings of 380 ms",
+            "score": 62,
+            "savingsMs": 380
+          }
+        ]
+      },
+      "desktop": {
+        "strategy": "desktop",
+        "available": true,
+        "fetchedAt": "2026-10-09T18:00:00.000Z",
+        "dataSource": "Google PageSpeed Insights API v5",
+        "lighthouseScores": {
+          "performance": 88,
+          "accessibility": 91,
+          "bestPractices": 96,
+          "seo": 92
+        },
+        "labMetrics": {
+          "firstContentfulPaint": "0.7 s",
+          "largestContentfulPaint": "1.4 s",
+          "totalBlockingTime": "70 ms",
+          "cumulativeLayoutShift": "0.08",
+          "speedIndex": "1.1 s",
+          "interactive": "1.6 s"
+        },
+        "fieldData": {
+          "available": true,
+          "overallCategory": "FAST",
+          "lcpMs": 1480,
+          "lcpCategory": "FAST",
+          "inpMs": 68,
+          "inpCategory": "FAST",
+          "clsScore": 0.06,
+          "clsCategory": "FAST",
+          "fcpMs": 740,
+          "fcpCategory": "FAST"
+        },
+        "opportunities": []
+      }
+    },
+    "aiAnalysis": {
+      "available": true,
+      "generatedBy": "Demonstration Audit Baseline (Run a live audit on any URL for live Gemini AI analysis)",
+      "executiveSummary": "Demonstration Audit of acme-cloud-analytics.example.com shows a solid technical foundation (HTTPS, HSTS, valid robots.txt, and XML sitemap) with an overall SEO Health Score of 76/100. Immediate priority should be given to fixing the broken internal link (/legacy-integrations returning 404), repairing the malformed JSON-LD syntax on /docs/quickstart-guide, adding missing canonical and meta description tags on /pricing, and optimizing uncompressed PNG/JPG images to improve Mobile LCP (3.4s) and CLS (0.14).",
+      "recommendations": [
+        {
+          "id": "rec-demo-1",
+          "issue": "Broken Internal Link (/legacy-integrations -> HTTP 404) & 2-Hop Redirect Chain",
+          "evidence": "Homepage links to /legacy-integrations (404) and /docs/QuickStart_Guide (302 -> 301 -> /docs/quickstart-guide).",
+          "whyItMatters": "Broken internal links waste crawl budget and create dead ends for prospective buyers, while multi-hop redirects add 540ms of latency.",
+          "priority": "Critical",
+          "recommendedFix": "Replace the broken href on the homepage with a valid 200 OK destination and update the Quickstart link to point directly to the lowercase canonical URL.",
+          "implementationSteps": [
+            "Locate the anchor tag linking to /legacy-integrations in the homepage footer/body template.",
+            "Update href=\"/legacy-integrations\" to href=\"/docs/quickstart-guide\" and set a 301 redirect on the server.",
+            "Update href=\"/docs/QuickStart_Guide\" to href=\"/docs/quickstart-guide\" with descriptive anchor text (\"Quickstart Integration Guide\") instead of \"click here\"."
+          ],
+          "exampleOrCode": "<a href=\"/docs/quickstart-guide\">Explore the 5-Minute Warehouse Quickstart Guide</a>",
+          "estimatedEffort": "30 minutes",
+          "verificationMethod": "Re-run SEO Audit Pro AI crawl and verify 0 broken internal links and 0 redirect chains."
+        },
+        {
+          "id": "rec-demo-2",
+          "issue": "Missing Meta Description & Canonical Tag on Commercial /pricing Page",
+          "evidence": "https://acme-cloud-analytics.example.com/pricing has 0-char meta description, no <link rel=\"canonical\">, and 26-char title.",
+          "whyItMatters": "Pricing is a bottom-of-funnel conversion page. Without a canonical tag, campaign tracking parameters can create duplicate URLs; without a meta description, SERP CTR suffers.",
+          "priority": "High",
+          "recommendedFix": "Add a self-referencing canonical tag, expand the title tag to 50–60 characters, and write a compelling 140–155 character meta description.",
+          "implementationSteps": [
+            "Open the head metadata configuration for the /pricing route.",
+            "Insert the <link rel=\"canonical\"> element.",
+            "Update <title> and <meta name=\"description\"> with the recommended snippet."
+          ],
+          "exampleOrCode": "<title>Cloud Analytics Pricing & Enterprise Plans | Acme Cloud</title>\n<meta name=\"description\" content=\"Compare Acme Cloud Analytics pricing tiers from Starter to Enterprise Dedicated Clusters. Transparent usage-based billing with a 14-day free trial.\" />\n<link rel=\"canonical\" href=\"https://acme-cloud-analytics.example.com/pricing\" />",
+          "estimatedEffort": "20 minutes",
+          "verificationMethod": "Inspect /pricing in On-Page SEO tab after re-crawling."
+        },
+        {
+          "id": "rec-demo-3",
+          "issue": "Malformed JSON-LD Syntax on Documentation Page",
+          "evidence": "Trailing comma in application/ld+json script on /docs/quickstart-guide causes JSON.parse failure.",
+          "whyItMatters": "Search engines completely discard JSON-LD blocks that contain syntax errors.",
+          "priority": "High",
+          "recommendedFix": "Remove the trailing comma and include recommended TechArticle properties (author, datePublished).",
+          "implementationSteps": [
+            "Replace the malformed JSON-LD script block in the documentation template.",
+            "Test the rendered HTML in Google Rich Results Test."
+          ],
+          "exampleOrCode": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"TechArticle\",\n  \"headline\": \"Quickstart Integration Guide\",\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Acme Cloud Analytics Inc.\"\n  },\n  \"datePublished\": \"2026-10-01\"\n}\n</script>",
+          "estimatedEffort": "25 minutes",
+          "verificationMethod": "Confirm \"schema-syntax-error\" is resolved in the Schema Markup tab."
+        }
+      ],
+      "actionPlan": [
+        {
+          "timeframe": "7-Day Quick Wins & Critical Fixes",
+          "focus": "Eliminate 404 internal links, fix JSON-LD syntax errors, and complete missing metadata on /pricing.",
+          "milestones": [
+            {
+              "title": "Fix Broken Internal Link & Redirect Chain",
+              "category": "Technical SEO",
+              "action": "Update /legacy-integrations and /docs/QuickStart_Guide links on homepage.",
+              "expectedOutcome": "Clean 200 OK internal link graph with zero crawl dead-ends.",
+              "effort": "30 mins"
+            }
+          ]
+        },
+        {
+          "timeframe": "30-Day Technical & On-Page Optimization",
+          "focus": "Improve Mobile Core Web Vitals (LCP 3.4s -> <2.5s, CLS 0.14 -> <0.1) and image SEO.",
+          "milestones": [
+            {
+              "title": "Convert Legacy PNG/JPG Assets to WebP & Add Dimensions",
+              "category": "Performance",
+              "action": "Convert dashboard-hero.png and IMG_4092.jpg to WebP, add width/height and descriptive alt text.",
+              "expectedOutcome": "~510 KB payload reduction, faster mobile LCP, and CLS under 0.10.",
+              "effort": "2 hours"
+            }
+          ]
+        },
+        {
+          "timeframe": "90-Day Authority, Content & Semantic Growth",
+          "focus": "Expand documentation depth and publish commercial comparison topic clusters.",
+          "milestones": [
+            {
+              "title": "Expand Technical Documentation & Add FAQ Schema",
+              "category": "Content Quality",
+              "action": "Expand /docs/quickstart-guide from 195 words to 600+ words with CLI troubleshooting FAQs.",
+              "expectedOutcome": "Higher long-tail rankings for data warehouse integration queries.",
+              "effort": "6 hours"
+            }
+          ]
+        }
+      ],
+      "contentOpportunities": {
+        "missingTopics": [
+          "Snowflake vs. BigQuery Cost Optimization Benchmarks",
+          "SOC2 & HIPAA Data Governance Architecture Whitepaper"
+        ],
+        "blogIdeas": [
+          {
+            "title": "How to Reduce Cloud Data Warehouse Query Latency by 60%",
+            "targetIntent": "Informational",
+            "outline": "H2: Identifying Bottlenecks | H2: Indexing & Partitioning | H2: Automated Observability Alerts"
+          }
+        ],
+        "faqSuggestions": [
+          {
+            "question": "Does Acme Cloud Analytics store copies of our raw warehouse data?",
+            "answerDraft": "No. Acme Cloud connects via read-only metadata and query-plan telemetry without moving or storing raw customer PII."
+          }
+        ]
+      }
+    },
+    "limitations": [
+      "Explicitly labeled Demonstration Audit dataset preloaded for immediate interface exploration. Enter any public website URL and click \"Start Audit\" to run a real live crawl and analysis.",
+      "Actual Google indexing status requires an authorized Google Search Console integration."
+    ],
+    "dataSources": [
+      "Demonstration Dataset (Labeled Demo Data)",
+      "Enter any URL above to collect live HTTP/HTML Crawl + Google PageSpeed Insights v5 + Gemini AI telemetry"
+    ]
+  }
+]
